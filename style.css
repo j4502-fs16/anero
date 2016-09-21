@@ -1,7 +1,7 @@
 p {
   color:#708090;
   font-family:"Palatino Linotype", "Book Antiqua", serif;
-  font-size: 1.0em; 
+  font-size: 1.0em;
 }
 
 h1{
@@ -16,12 +16,12 @@ h2{
 
 
 body{
-  background-color:#BC8F8F;
+  background-color:#F5F5DC;
 }
 
 #container{
   width:95%;
-  background-color:#F5F5DC;
+  background-color:#95AA86;
   margin:0 auto;
 }
 
@@ -39,7 +39,7 @@ body{
 
 #nav a:link, a:visited {
   display: block;
-  color: #DB7093;
+  color: #6B994B;
   background-color: #D3D3D3;
   text-align: center;
   font-weight: bold;
