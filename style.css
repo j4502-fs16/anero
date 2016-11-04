@@ -138,6 +138,8 @@ padding: 0 20px;
 
 }
 
+}
+
 
 
 
@@ -154,17 +156,17 @@ padding: 0 20px;
   justify-content: space-around;
   }
 
-
 .header{
   justify-content: space-around;
   padding: 6px;
   align-self: auto;
   }
-  .main{
-     display: flex;
-     justify-content: space-around;
-     padding: 15px;
-     align-self: auto;
+
+.main{
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+  align-self: auto;
    }
 
 .aside-1{
@@ -173,7 +175,7 @@ padding: 0 20px;
   }
 
 .aside-2{
-    justify-content: space-around;
-    padding: 10px;
+  justify-content: space-around;
+  padding: 10px;
   }
 }
