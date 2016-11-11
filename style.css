@@ -81,6 +81,7 @@ body{
 
  @media all and (max-width: 599px) {
 
+
    .image{
      visibility: hidden;
      display: none;
