@@ -12,6 +12,7 @@ p {
 }
 
 #h1 {
+
   color: #000000;
   font: sans-serif;
   font-weight: bold;
@@ -38,16 +39,17 @@ body{
 }
 
 #wrapper{
+
   width:95%;
   background-color:#F5F5F5;
   margin:0 auto;
 }
 
+
 .nav {
-  padding: 0;
-  margin:0;
-  display: flex;
-  flex-flow: column;
+ padding: 0;
+ margin:0;
+ display: none;
 }
 
 .nav li {
@@ -78,6 +80,7 @@ body{
  }
 
  @media all and (max-width: 599px) {
+
    .image{
      visibility: hidden;
      display: none;
@@ -107,6 +110,7 @@ body{
    }
 
  }
+
 
 @media all and (min-width: 600px){
 .header{
@@ -159,6 +163,14 @@ padding: 0 20px;
      align-items: flex-start;
    }
 
+   .nav {
+     padding: 0;
+     margin:0;
+     display: flex;
+     flex-flow: row;
+   }
+
+
 .flex {
   display: flex;
   flex-flow: row;
@@ -208,7 +220,9 @@ nav a {
         display: flex;
         flex-flow: row;
         margin: 0;
-        padding: 0 10px;
+        padding:0 20px;
+        padding-top: 15px;
+
     }
 
     .menu-trigger {
@@ -217,7 +231,8 @@ nav a {
         width: 2em;
     }
 
-    #h1 {
+
+  #h1 {
         order: 2;
         font-size: 2em;
     }
@@ -225,6 +240,8 @@ nav a {
   nav ul {
         display: none;
     }
+
+
 /* menu will colapse? */
 
 @media screen and (min-width: 700px){
@@ -232,6 +249,7 @@ nav a {
     nav ul {
         display: flex;
     }
+
 
     nav ul li {
         border-top: none; /*this takes the border off but i'm not sure if my site has border on menu items?*/
